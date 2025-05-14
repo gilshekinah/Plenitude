@@ -6,28 +6,44 @@ import { Calendar } from 'lucide-react';
 export default function App() {
   const [events, setEvents] = useState([
     { id: 1, title: 'Culto de Maturidade', date: 'Quinta-feira 10:30', confirmed: false },
+    
     { id: 2, title: 'Culto da Família', date: 'Domingo 19:00', confirmed: false },
+    
     { id: 3, title: 'Mulheres em Plenitude', date: 'Última Sexta-feira do Mês 10:30', confirmed: false },
+    
     { id: 4, title: 'Homens em Plenitude', date: 'Última Sexta-feira do Mês 10:30', confirmed: false },
+    
     { id: 5, title: 'Culto de Santa Ceia', date: 'Segundo Domingo 10:00', confirmed: false },
+    
     { id: 6, title: 'Jovens em Plenitude', date: 'Sábado 15:00', confirmed: false },
+    
     { id: 7, title: 'Café da Comunhão', date: 'Terceiro Domingo do Mês 09:00', confirmed: false },
+    
     { id: 8, title: 'Peace at Home', date: 'Quarta-feira 19:00', confirmed: false },
+    
     { id: 9, title: 'Reunião Ministerial', date: 'Primeiro Sábado do Mês 19:00', confirmed: false }
   ]);
 
   const [prayerRequests, setPrayerRequests] = useState([
+  
     { id: 1, content: 'Oração pela saúde de Maria', urgent: false },
+    
     { id: 2, content: 'Oração por um novo emprego', urgent: true }
   ]);
 
   const [devotionals, setDevotionals] = useState([
     { id: 1, title: 'Confiança em Deus', content: 'Salmo 37:5 - Entrega o teu caminho ao Senhor...', favorite: false },
+    
     { id: 2, title: 'Perdão e Graça', content: 'Mateus 6:14 - Porque se perdoardes...', favorite: false },
+    
     { id: 3, title: 'Devocional Jovens em Plenitude', content: '1 Timóteo 4:12 - Ninguém despreze a tua mocidade...', favorite: false },
+    
     { id: 4, title: 'Devocional Casais em Plenitude', content: 'Efésios 5:33 - Cada um de vocês ame a sua esposa como a si mesmo...', favorite: false },
+    
     { id: 5, title: 'Devocional Homens em Plenitude', content: '1 Coríntios 16:13 - Vigiai, estai firmes na fé, portai-vos varonilmente...', favorite: false },
+    
     { id: 6, title: 'Devocional Mulheres em Plenitude', content: 'Provérbios 31:25 - Força e dignidade são os seus vestidos...', favorite: false },
+    
     { id: 7, title: 'Devocional Plenitude Kids', content: 'Salmo 127:3 - Os filhos são herança do Senhor...', favorite: false }
   ]);
 
